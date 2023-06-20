@@ -1,0 +1,83 @@
+.myBG {
+	height: 100vh;
+	background: url("../Style/image/magic/aseli.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.NavbarBrand {
+	
+}
+
+.parallax {
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100vh;
+}
+
+.Intro {
+	height: 200px;
+	display: flex;
+	justify-content: end;
+	align-items: end;
+}
+
+.Navbar {
+	text-shadow: 2px 3px black;
+}
+
+.title {
+	font-size: 2rem;
+	font-weight: 800;
+	line-height: 1;
+	text-align: center;
+	text-shadow: 3px 3px black;
+	letter-spacing: 3px;
+}
+
+.Magic {
+	height: auto;
+	background: url("../Style/image/magic/magicbg.jpg");
+	background-size: cover;
+}
+.SuperHero {
+	height: auto;
+	background: url("../Style/image/superHero/herobg.jpg");
+	background-size: cover;
+}
+
+.Indonesia {
+	height: auto;
+	background: url("../Style/image/indonesia/indobg.jpg");
+	background-size: cover;
+}
+
+.movieImage {
+	height: auto;
+	background-color: black;
+	padding: 2px;
+	margin: 2px;
+}
+
+.movieWrapper {
+}
+
+.images {
+	height: 280px;
+}
+
+.toptext {
+	font-family:'Shadows Into Light', cursive;
+}
+
+.textstyle {
+	font-family: 'Dosis', sans-serif;
+	font-size: 10px;
+}
+@media screen and (max-width: 576px) {
+  .images {
+	height: 500px;
+}
+}
